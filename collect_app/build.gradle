@@ -25,10 +25,10 @@ def getMasterCommitCount = { ->
         exec {
             switch (ant.properties.os) {
                 case 'windows':
-                    commandLine 'cmd', '/c', 'git', 'rev-list', '--first-parent', '--count', 'master'
+                    commandLine 'cmd', '/c', 'git', 'rev-list', '--first-parent', '--count', 'develop'
                     break
                 case 'unix':
-                    commandLine 'git', 'rev-list', '--first-parent', '--count', 'master'
+                    commandLine 'git', 'rev-list', '--first-parent', '--count', 'develop'
                     break
             }
             standardOutput = stdout
