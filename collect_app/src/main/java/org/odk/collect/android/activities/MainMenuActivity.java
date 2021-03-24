@@ -229,12 +229,12 @@ public class MainMenuActivity extends CollectAbstractActivity implements AdminPa
             }
         });
 
-        String versionSHA = viewModel.getVersionCommitDescription();
-        if (versionSHA != null) {
-            versionSHAView.setText(versionSHA);
-        } else {
-            versionSHAView.setVisibility(View.GONE);
-        }
+//        String versionSHA = viewModel.getVersionCommitDescription();
+//        if (versionSHA != null) {
+//            versionSHAView.setText(versionSHA);
+//        } else {
+//            versionSHAView.setVisibility(View.GONE);
+//        }
 
         // must be at the beginning of any activity that can be called from an
         // external intent
