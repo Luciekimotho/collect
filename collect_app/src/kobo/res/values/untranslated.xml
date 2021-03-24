@@ -7,10 +7,10 @@ OR CONDITIONS OF ANY KIND, either express or implied. See the License for
 the specific language governing permissions and limitations under the License. -->
 <resources>
     <!-- strings that should not be translated -->
-    <string name="app_name" translatable="false">KoBoCollect</string>
+    <string name="app_name" translatable="false">SDGCA Survey</string>
     <string name="protocol_odk_default" translatable="false">odk_default</string>
     <string name="protocol_google_sheets" translatable="false">google_sheets</string>
-    <string name="default_server_url" translatable="false">https://kc.kobotoolbox.org/kobodemouser</string>
+    <string name="default_server_url" translatable="false">https://kc.test.sdgca.intellisoftkenya.com</string>
     <string name="default_odk_formlist" translatable="false">/formList</string>
     <string name="default_odk_submission" translatable="false">/submission</string>
     <string name="app_url" translatable="false">https://kobotoolbox.org</string>
